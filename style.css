@@ -108,13 +108,13 @@ text-align: center;
     color: black;
 
 }
+
+
 @media screen and ( max-width:700px){
     #nav{
         display: flex;
         flex-direction: column;
     }
-}
-@media screen and ( max-width:700px){
     #welcome-section{
         display: flex;
         flex-direction: row;
@@ -122,4 +122,26 @@ text-align: center;
         flex-wrap: wrap;
         text-align: justify;
     }
+    .pr-container{
+        background-color: white;
+    }
+    #project-1,#project-2,#project-3,#project-4{
+        height: 150px;
+        text-align: center;
+        margin: 10px;
+    }
+    #project-3:hover{
+        height: 200px;
+        
+    }
+    #project-2:hover{
+        height: 200px;
+    }
+    #project-1:hover{
+        height:200px ;
+    }
+    #project-4:hover{
+        height:200px ;
+    }
+
 }

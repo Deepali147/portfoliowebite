@@ -1,9 +1,10 @@
 {
-  "homepage": "http://Deepali147.github.io/portfolio-page",
-
-
+  "homepage": "http://Deepali147.github.io/portfoliowebite",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  
-}
+  }
 }
